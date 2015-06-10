@@ -33,7 +33,7 @@ GET example:<br/>
 `oauth_rest_client.sh -p /api/billing/v1/paymentInstruments/746d627d-931c-4a16-9f62-34b2b4efe278`
 _______________________________________________________________________
 GET example:<br/>
-`oauth_rest_client.sh -u https://dev11-clouds.devappdirect.me/api/billing/v1/paymentInstruments/1eae4581-b65c-4595-b25f-30f8dd131397 -k clouds-519 -s 123 -a application/xml`
+`oauth_rest_client.sh -u https://dev11-clouds.devappdirect.me/api/billing/v1/paymentInstruments/1eae4581-b65c-4595-b25f-30f8dd131397 -k abc -s 123 -a application/xml`
 _______________________________________________________________________
 GET example:<br/>
 `oauth_rest_client.sh -h http://localhost:8080 -p /api/hostedcheckout/transactions -k abc -s 123 -a application/xml`
