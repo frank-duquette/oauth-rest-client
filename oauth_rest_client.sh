@@ -59,7 +59,7 @@ printUsage () {
 	echo >&2 "Content-type (-c): $DEFAULT_CONTENT"
 	echo >&2 
 	echo >&2 "GET example:"; echo >&2 "$PROGRAM_NAME -p /api/billing/v1/paymentInstruments/746d627d-931c-4a16-9f62-34b2b4efe278"; echo >&2
-	echo >&2 "GET example:"; echo >&2 "$PROGRAM_NAME -u https://dev11-clouds.devappdirect.me/api/billing/v1/paymentInstruments/1eae4581-b65c-4595-b25f-30f8dd131397 -k clouds-519 -s 123 -a application/xml"; echo >&2
+	echo >&2 "GET example:"; echo >&2 "$PROGRAM_NAME -u https://dev11-clouds.devappdirect.me/api/billing/v1/paymentInstruments/1eae4581-b65c-4595-b25f-30f8dd131397 -k abc -s 123 -a application/xml"; echo >&2
         echo >&2 "GET example:"; echo >&2 "$PROGRAM_NAME -h http://localhost:8080 -p /api/hostedcheckout/transactions -k abc -s 123 -a application/xml"; echo >&2
 	echo >&2 "POST (json) example:"; echo >&2 "$PROGRAM_NAME -p /api/hostedCheckout/v1/companies/a3bbfe79-074a-4dd4-97fb-2bdfe040fd25/users/82732925-6504-4581-a727-414e7b2e75af/transactions -c application/json -d '{ \"token\": \"abc\", \"productId\": \"27\", \"type\": \"PURCHASE\", \"returnUrl\": \"http://appdirect.com\" }'" 
 	echo >&2
