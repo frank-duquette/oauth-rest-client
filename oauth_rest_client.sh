@@ -1,6 +1,7 @@
 #!/bin/sh
 # ---------------------------------------------------------------------------
-# api_client - Bash shell script that calls REST APIs (both GET and POST)
+# oauth_rest_client - Bash shell script that calls REST APIs (both GET and POST)
+# while signing requests headers with OAUTH 1.0a.
 #
 # Copyright 2015, Francois Duquette <francois.duquette@appdirect.com>
 #
