@@ -1,13 +1,11 @@
 # oauth-rest-client
 
 #### DESCRIPTION:
-REST client helpful for submitting GET and POST queries that need to be secured using OAUTH 1.0a (by signing the http request header).
+REST client helpful for submitting GET and POST requests that need to be secured using OAUTH 1.0a (by signing the http request header).
 
 
 #### DEPENDENCIES: 
-One must install node 'oauth-proxy' package via npm in order for this script to work (..and sign request headers using oauth 1.0a).
-               Of course 'npm' tool (node package manager) must first be available prior of doing the following oauth-proxy install command.
-               Npm now comes bundled with 'node' (https://nodejs.org/).
+One must install node 'oauth-proxy' package via npm in order for this script to work (..and automatically sign request headers using oauth 1.0a). Of course 'npm' tool (node package manager) must first be available prior of doing the following oauth-proxy install command. Npm now comes bundled with 'node' (https://nodejs.org/).
 
                $ npm install -g oauth-proxy
                (https://www.npmjs.com/package/oauth-proxy)
